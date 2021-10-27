@@ -116,6 +116,7 @@ for a in lista_tablas:
 
 		if len(lista_columnas) != jmod:
 			lista_columnas_tablas.append(lista_columnas)
+			lista_columnas.clear()
 			break
 
 #Sacamos los datos de las columnas
